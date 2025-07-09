@@ -23,20 +23,7 @@ This lab demonstrates Cilium and Hubble's observability capabilities using a sim
 Network observability adds a fourth pillar:
 4. **Flows** - Real-time network traffic patterns and relationships
 
-### Why Traditional K8s Lacks Network Observability
 
-Standard Kubernetes networking provides:
-- ❌ **No visibility** into pod-to-pod communication
-- ❌ **No real-time monitoring** of network flows
-- ❌ **No protocol awareness** beyond basic IP/port
-- ❌ **No security policy insights** 
-- ❌ **Limited troubleshooting** capabilities
-
-You typically rely on:
-- Application logs (incomplete picture)
-- kubectl describe (static information)
-- Network tools like tcpdump (manual, reactive)
-- Guesswork when networking issues occur
 
 ### How Cilium + Hubble Achieves Network Observability
 
