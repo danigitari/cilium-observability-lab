@@ -1,4 +1,4 @@
-#  Observability with Cillium and Hubble Observability Lab
+#  Observability on Kubernetes with Cillium and Hubble 
 
 This lab demonstrates Cilium and Hubble's observability capabilities using a simple 3-tier web application on Kind.
 
